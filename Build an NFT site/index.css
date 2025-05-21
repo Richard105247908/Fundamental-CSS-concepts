@@ -43,17 +43,16 @@ a:active{
 
 /* Layout */
 
- header{
-    background-color: #5f29a3;
+header, section,footer{
     padding: 45px 0;
 }
 
-section{
-    padding: 45px 0;
+header,.section-two{
+        background-color: #5f29a3;
+
 }
 
 .section-two{
-    background-color: #5f29a3;
     color: whitesmoke;
 
 }
@@ -66,11 +65,9 @@ section{
 
 footer{
     border:5px solid black;
-    font-size: 16px;
     color: #5f29a3;
     /* margin: 10px 0;   do not add margin look at section and header*/
     text-align: center;
-    padding: 45px 0;
 }
 
 /* Images */
