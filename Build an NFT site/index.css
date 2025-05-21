@@ -64,6 +64,15 @@ section{
     margin: 0 auto;
 }
 
+footer{
+    border:5px solid black;
+    font-size: 16px;
+    color: #5f29a3;
+    /* margin: 10px 0;   do not add margin look at section and header*/
+    text-align: center;
+    padding: 45px 0;
+}
+
 /* Images */
 
 .main-image{
