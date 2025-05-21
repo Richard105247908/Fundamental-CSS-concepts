@@ -38,6 +38,10 @@ a:hover, a:active{
     color:#d4b44c ;
 }
 
+p{
+    line-height: 23px;
+}
+
 
 /* Layout */
 
