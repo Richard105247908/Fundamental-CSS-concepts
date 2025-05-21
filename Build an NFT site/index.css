@@ -8,13 +8,15 @@ body{
 } 
 
 /*typography  */
+h1,h3{
+    margin: 0;
+}
 
 h1{
     font-size: 36px;
     color: whitesmoke;
-    margin: 0;
-
 }
+
 h2{
    
     margin-top: 0;
@@ -23,7 +25,6 @@ h2{
 h3{
     font-size: 20px;
     color: #d0aaff;
-    margin: 0;
 }
 
 /* links */
@@ -33,13 +34,10 @@ a{
     text-decoration:underline dotted;
 }
 
-a:hover{
+a:hover, a:active{
     color:#d4b44c ;
 }
 
-a:active{
-    color:#d4b44c ;
-}
 
 /* Layout */
 
@@ -48,23 +46,19 @@ header, section,footer{
 }
 
 header,.section-two{
-        background-color: #5f29a3;
-
+    background-color: #5f29a3;
 }
 
 .section-two{
     color: whitesmoke;
-
 }
 
 .container{
     width:620px ;
-    border: 5px solid grey ;
     margin: 0 auto;
 }
 
 footer{
-    border:5px solid black;
     color: #5f29a3;
     /* margin: 10px 0;   do not add margin look at section and header*/
     text-align: center;
