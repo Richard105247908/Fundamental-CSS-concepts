@@ -40,35 +40,34 @@ a:hover, a:active{
 
 p{
     line-height: 23px;
-    border: 5px solid black;
 }
 
 
 /* Layout */
 
-.nft-anc,.info-anc,.about-anc{
+.btn-dark,.btn-mid,.btn-light{
     padding:10px 19px;
     border-radius: 4.6px;
     font-weight:500;
     text-decoration: none;
 }
 
-.nft-anc{
+.btn-dark{
     background-color: #5f29a3;
     color: whitesmoke;
 }
 
-.nft-anc:hover,.nft-anc:active{
+.btn-dark:hover,.btn-dark:active{
     background-color: #f3e885;
     color: #2b283a;
 }
 
-.info-anc{
+.btn-mid{
     background-color: #f0e0ff;
     color: #5f29a3;
 }
 
-.about-anc{
+.btn-light{
     background-color: whitesmoke;
     color: #5f29a3;
 }
@@ -110,7 +109,6 @@ footer{
 }
 
 .section-two-image-container{
-    border: 5px solid peru;
     display: flex;
     justify-content:space-between ;
 }
