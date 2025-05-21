@@ -27,6 +27,11 @@ h3{
     color: #d0aaff;
 }
 
+p{
+    line-height: 23px;
+    
+}
+
 /* links */
 
 a{
@@ -38,18 +43,17 @@ a:hover, a:active{
     color:#d4b44c ;
 }
 
-p{
-    line-height: 23px;
-}
-
 .btn-dark,
 .btn-mid,
 .btn-light{
-    padding:10px 19px;
+    padding: 10px 19px;
     border-radius: 4.6px;
-    font-weight:500;
+    font-weight: 500;
     text-decoration: none;
+    display: inline-block;
+    margin: 10px
 }
+
 .btn-dark:hover,
 .btn-mid:hover,
 .btn-light:hover,
