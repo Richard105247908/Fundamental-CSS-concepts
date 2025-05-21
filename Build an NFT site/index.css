@@ -41,7 +41,9 @@ a:hover, a:active{
 
 /* Layout */
 
-header, section,footer{
+header,
+section,
+footer{
     padding: 45px 0;
 }
 
